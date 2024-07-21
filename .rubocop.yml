@@ -1,0 +1,12 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-faker
+
+AllCops:
+  TargetRubyVersion: 3.3.4
+  Exclude:
+    - 'bin/*'
+
+Style/Documentation:
+  Enabled: false
